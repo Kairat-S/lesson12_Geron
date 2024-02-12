@@ -1,0 +1,18 @@
+{
+  "name": "kairat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start1": "yarn build && node public/bundle.js",
+    "start": "yarn tsc && node main",
+    "startClass": "cd src/scripts/lesson11 && yarn tsc && node classes && cd ../.."
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "5.2.2",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

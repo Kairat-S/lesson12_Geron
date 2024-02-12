@@ -1,0 +1,17 @@
+[
+    {
+      "city": "Moscow",
+      "name": "Warehouse 1",
+      "address": "123 Sample Street",
+      "id": 1,
+      "products": []
+    },
+    {
+      "city": "Saint Petersburg",
+      "name": "Warehouse 2",
+      "address": "456 Example Avenue",
+      "id": 2,
+      "products": []
+    }
+  ]
+  
